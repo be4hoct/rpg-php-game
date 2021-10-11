@@ -3,10 +3,11 @@
 // Elves should have higher dex
 class Elf {
     // Let's define the starting stats
-    const start_vit = 10;
+    const start_vit = 9;
     const start_att = 9;
     const start_def = 10;
-    const start_dex = 10;
+    const start_dex = 11;
+    const start_man = 10;
 }
 // Let's define the Dwarf class
 // Dwarfes should have higher defence
@@ -16,6 +17,7 @@ class Dwarf {
     const start_att = 8;
     const start_def = 11;
     const start_dex = 9;
+    const start_man = 8;
 }
 // Let's define the Human class
 // Humans should be a balanced class
