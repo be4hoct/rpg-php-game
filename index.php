@@ -17,9 +17,9 @@ font-size: 25px;
 </head>
 <body>
 <div class="container">  
-<form id="attack" action="attack.php" method="post">
-<button id ="btn" form="attack" formaction="attack.php"> Attack </button>
-<button id ="btn" form="attack" formaction="attack.php"> Run </button>
+<form id="attackform" action="/attack.php" method="post">
+<button id ="btn" form="attackform" formaction="attack.php" value="Submit"> Attack </button>
+<button id ="btn" form="attackform" formaction="attack.php" value="Submit"> Run </button>
 </form>
 </div>  
 </body>
